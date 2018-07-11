@@ -1,14 +1,12 @@
 kr-comment-translater
 ==
 
-This script detects Korean comments in java/kotlin file, and adds comments of English translation.
+This script detects Korean comments in Java (and Java like syntax language) file, and translates to English.
 
-* Korean to English
-  * Uses Google Translate API
-    * BE CAREFUL: In this mode, comments in the source code are sent to Google.
-    * Required a API token.
-    * Required billing for Google.
-    * More info: https://cloud.google.com/translate/?hl=ja
+* Uses Google Translate API
+  * Required a API token.
+  * Required billing for Google.
+  * More info: https://cloud.google.com/translate/?hl=ja
 
 ## How to install
 
@@ -21,7 +19,7 @@ bundle install
 ## How to use
 
 ```sh
-bundle exec ruby ./app.rb YOUR_GOOGLE_TOKEN]KoreanCommentClass.java
+bundle exec ruby ./app.rb YOUR_GOOGLE_TOKEN KoreanCommentClass.java
 ```
 
 ### How to process some files.
