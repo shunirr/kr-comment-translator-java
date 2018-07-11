@@ -1,10 +1,10 @@
 kr-comment-translater
 ==
 
-This script detects Korean comments in java/kotlin file, and adds comments of Japanese translation and English translation.
+This script detects Korean comments in java/kotlin file, and adds comments of English translation.
 
 * Korean to English
-  * Uses Google Translate API (for public)
+  * Uses Google Translate API
     * BE CAREFUL: In this mode, comments in the source code are sent to Google.
     * Required a API token.
     * Required billing for Google.
